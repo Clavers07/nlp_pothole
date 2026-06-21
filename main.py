@@ -57,121 +57,24 @@ FAQ_DATA = {
 
 # Keyword mappings for common terms
 KEYWORD_SYNONYMS = {
-    "deteksi": [
-        "deteksi",
-        "mendeteksi",
-        "identifikasi",
-        "analisis"
-    ],
-
-    "lapor": [
-        "lapor",
-        "laporan",
-        "pengaduan",
-        "melapor"
-    ],
-
-    "akurasi": [
-        "akurasi",
-        "ketepatan",
-        "precision",
-        "hasil"
-    ],
-
-    "kamera": [
-        "kamera",
-        "cctv",
-        "dashcam",
-        "smartphone"
-    ],
-
-    "realtime": [
-        "realtime",
-        "real time",
-        "langsung"
-    ],
-
-    "yolo": [
-        "yolo",
-        "model",
-        "algoritma"
-    ],
-
-    "dataset": [
-        "dataset",
-        "data latih",
-        "training data"
-    ],
-
-    "ai": [
-        "ai",
-        "artificial intelligence",
-        "kecerdasan buatan"
-    ],
-
-    "manfaat": [
-        "manfaat",
-        "fungsi",
-        "kegunaan",
-        "keuntungan"
-    ],
-
-    "bahaya": [
-        "bahaya",
-        "risiko",
-        "dampak",
-        "kecelakaan"
-    ],
-
-    "perbaikan": [
-        "perbaikan",
-        "memperbaiki",
-        "penanganan"
-    ],
-
-    "lokasi": [
-        "lokasi",
-        "gps",
-        "koordinat",
-        "titik"
-    ],
-
-    "gambar": [
-        "gambar",
-        "foto",
-        "image"
-    ],
-
-    "video": [
-        "video",
-        "rekaman",
-        "streaming"
-    ],
-
-    "pengembang": [
-        "pengembang",
-        "developer",
-        "pembuat"
-    ],
-
-    "teknologi": [
-        "teknologi",
-        "framework",
-        "tools"
-    ],
-
-    "halo": [
-        "halo",
-        "hai",
-        "hello",
-        "hi"
-    ],
-
-    "terima kasih": [
-        "terima kasih",
-        "makasih",
-        "thanks"
-    ]
+    "deteksi": ["deteksi", "mendeteksi", "identifikasi", "analisis"],
+    "lapor": ["lapor", "laporan", "pengaduan", "melapor"],
+    "akurasi": ["akurasi", "ketepatan", "precision"],
+    "kamera": ["kamera", "cctv", "dashcam", "smartphone"],
+    "realtime": ["realtime", "real time", "langsung"],
+    "yolo": ["yolo", "model", "algoritma"],
+    "dataset": ["dataset", "data latih", "training data"],
+    "ai": ["ai", "artificial intelligence", "kecerdasan buatan"],
+    "manfaat": ["manfaat", "fungsi", "kegunaan", "keuntungan"],
+    "bahaya": ["bahaya", "risiko", "dampak", "kecelakaan"],
+    "perbaikan": ["perbaikan", "memperbaiki", "penanganan"],
+    "lokasi": ["lokasi", "gps", "koordinat"],
+    "gambar": ["gambar", "foto", "image"],
+    "video": ["video", "rekaman", "streaming"],
+    "pengembang": ["pengembang", "developer", "pembuat"],
+    "teknologi": ["teknologi", "framework", "tools"],
+    "halo": ["halo", "hai", "hello", "hi"],
+    "terima kasih": ["terima kasih", "makasih", "thanks"]
 }
 
 class UserInput(BaseModel):
